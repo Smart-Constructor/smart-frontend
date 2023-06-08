@@ -1,6 +1,6 @@
-import { w } from 'windstitch';
+import { w } from "windstitch";
 
-const AsideComponent = w.aside(`
+export const AsideComponent = w.aside(`
     flex flex-col 
     items-center 
     gap-4 
@@ -9,6 +9,17 @@ const AsideComponent = w.aside(`
     bg-white 
     shadow-lg 
     pt-8
-`)
+`);
 
-export default AsideComponent
+export const AsideItemContainer = w.div(`
+    grid grid-cols-3 auto-cols-max 
+    h-16 
+    rounded-lg 
+    gap-10 
+    box-border 
+    text-gray-800 
+    transition ease-in 
+    hover:bg-cyan-700 
+    hover:text-white
+`);
+
