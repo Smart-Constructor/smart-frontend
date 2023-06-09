@@ -26,7 +26,7 @@ export default function Login() {
           >
             Entrar
           </button>
-          <Link href="/signup" className="mt-6 text-sm text-cyan-700 font-medium hover:text-cyan-500">
+          <Link href="/signup" className="mt-6 text-base text-cyan-700 font-medium hover:text-cyan-500">
             <h2>Ainda não tem uma conta? Clique aqui!</h2>
           </Link>
         </form>
